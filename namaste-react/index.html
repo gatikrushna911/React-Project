@@ -7,6 +7,14 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Welcome to React</h1>
+    <div id="root"></div>
   </body>
+  <html>
+    <script>
+      const header = document.createElement("h1");
+      const text = document.createTextNode("Wecome to Namaste React");
+      header.appendChild(text);
+      document.getElementById("root").appendChild(header);
+    </script>
+  </html>
 </html>
